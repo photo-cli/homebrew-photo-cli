@@ -1,5 +1,14 @@
 # Homebrew Formulae Installation (macOS - Linux)
 
+## Dependency
+.NET SDK (8 or later) required for application to run and `dotnet` command should be available on your path variable.
+
+You can either download from [Microsoft download page](https://dotnet.microsoft.com/en-us/download) or using the following Brew cask.
+
+```
+brew install dotnet-sdk --cask
+```
+
 ## Configure Homebrew Tap - Third Party Repository
 
 ```shell

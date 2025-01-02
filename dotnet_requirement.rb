@@ -6,9 +6,8 @@ class DotnetRequirement < Requirement
     end
 
     def message; <<~EOS
-      dotnet is required; install it via one of:
-        brew cask install dotnet
-        brew cask install dotnet-sdk
+      dotnet sdk is required; install it via one of:
+        brew install dotnet-sdk --cask
       EOS
     end
   end
